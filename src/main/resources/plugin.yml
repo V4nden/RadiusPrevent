@@ -1,0 +1,9 @@
+name: V4RadiusPrevent
+version: '${project.version}'
+main: org.example.v4nden.v4radiusprevent.V4RadiusPrevent
+api-version: '1.20'
+commands:
+  v4prcenter:
+    permission: v4prc.admin
+  v4prexclusion:
+    permission: v4prc.admin
